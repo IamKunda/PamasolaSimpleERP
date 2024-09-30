@@ -25,15 +25,9 @@ Clone the Repository:
 
 bash
 Copy code
-git clone https://github.com/IamKunda/pamasola_erp.git
-cd pamasola_erp
-Backend Setup (ASP.NET MVC):
-
-Navigate to the backend directory:
-bash
-Copy code
-cd Backend
-Install the dependencies:
+git clone https://github.com/IamKunda/PamasolaSimpleERP
+cd PamasolaSimpleERP
+App Setup (ASP.NET MVC):
 bash
 Copy code
 dotnet restore
@@ -58,7 +52,7 @@ Publish the project to Azure from Visual Studio or using the Azure CLI:
 bash
 Copy code
 dotnet publish --configuration Release
-az webapp up --name PamasolaERP --resource-group MyResourceGroup --plan MyPlan
+az webapp up --name PamasolaSimpleERP --resource-group MyResourceGroup --plan MyPlan
 Security
 Authentication: Secure authentication using OAuth2 or JWT (depending on the client’s requirements).
 Data Encryption: SSL/TLS is enforced on the hosted platform to secure communication.
